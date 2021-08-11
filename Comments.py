@@ -32,7 +32,7 @@ def create_comment(com: str = "", len_com: int = 70,
 
 
 if __name__ == "__main__":
-    string_1 = create_comment("Установка версии Cmake")
+    string_1 = create_comment("Линковка библиотек")
     string_2 = create_comment()
     print(f'{string_2}{string_1}{string_2}')
     if len(string_1) != len(string_2):
